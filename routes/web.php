@@ -18,3 +18,5 @@ Route::get('/register', [HomeController::class, 'register'])->name('register');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 
 Route::get('/life', [HomeController::class, 'life'])->name('life');
+
+Route::get('/technology', [HomeController::class, 'technology'])->name('technology');

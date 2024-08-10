@@ -60,11 +60,11 @@
     {{-- Trending Topics End --}}
 
     {{--  Mid PAge  News  Section Start  --}}
-    <div class="container-fluid py-5">
-        <div class="container py-4">
+    <div class="container-fluid ">
+        <div class="container">
             <div class="row g-4">
 
-                <!-- Sidebar Section Start -->
+                <!-- Left Side  Section Start -->
                 <div class="col-lg-3 position-sticky sidebar">
                     <div class="p-4 pt-0 shadow bg-body rounded">
                         <div class="row g-0"> 
@@ -173,8 +173,8 @@
         <!-- Right  Sidebar Section Start -->
                 <div class="col-lg-3 position-sticky sidebar">
                     <div class="shadow  bg-body rounded p-4 pt-0">
-                        <div class="row g-4">
-                            <div class="col-12">
+                        <div class="row g-6">
+                            <div class="col-12 mt-4">
                                 <div class="rounded overflow-hidden">
                                     <img src="{{ asset('assets/img/news-1.jpg') }}"
                                         class="img-fluid rounded img-zoomin w-100" alt="">
@@ -272,7 +272,7 @@
     {{-- Best Places Start --}}
     
 <div class="container-fluid topics mb-5">
-        <h1 class="text-bold text-center">Trending Post</h1>
+        <h1 class="text-bold text-center mt-5">Trending Post</h1>
         <div class="container py-5">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">

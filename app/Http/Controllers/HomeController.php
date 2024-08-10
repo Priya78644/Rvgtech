@@ -36,4 +36,8 @@ class HomeController extends Controller
     public function life (){
         return view('front.life');
     }
+
+    public function technology (){
+        return view('front.technology');
+    }
 }

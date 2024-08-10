@@ -2,194 +2,158 @@
 @section('content')
 
 
+<!-- Hero Header Start -->
+<div class="hero-header overflow-hidden px-5">
+    <div class="rotate-img">
+        <img src="{{asset('assets/img/sty-1.png')}}" class="img-fluid w-100" alt="">
+        <div class="rotate-sty-2"></div>
+    </div>
+    <div class="row gy-5 align-items-center">
+        <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+            <h1 class="display-4 text-dark mb-4 wow fadeInUp" data-wow-delay="0.3s">Turn Emails into Revenue</h1>
+            <p class="fs-4 mb-4 wow fadeInUp" data-wow-delay="0.5s">Win new customers with the #1 email marketing and automations brand* that recommends ways to get more opens, clicks, and sales.</p>
+            <a href="#" class="btn btn-primary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.7s">Get Started</a>
+        </div>
+        <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+            <img src="{{asset('assets/img/hero-img-1.png')}}" class="img-fluid w-100 h-100" alt="">
+        </div>
+    </div>
+</div>
+<!-- Hero Header End -->
 
-{{-- EMail Marketing  Start--}}
-{{-- News Content Start --}}
-    <div class="container-fluid py-5">
-        <div class="container py-4">
-            <div class="row g-4">
-                {{-- Left Sidebar Start --}}
-                <div class="col-md-3 sidebar">
-                    <h4>Choose a Topic</h4>
-                    <table class="table table-bordered">
-                        <tbody>
-                            <tr>
-                                <td class="bg-primary text-white"><a href="#uncategorized" class="text-white">Uncategorized</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="bg-secondary text-white"><a href="#adhik" class="text-white">More</a></td>
-                            </tr>
-                            <tr>
-                                <td class="bg-success text-white"><a href="#internet" class="text-white">Internet</a></td>
-                            </tr>
-                            <tr>
-                                <td class="bg-danger text-white"><a href="#education" class="text-white">Education</a></td>
-                            </tr>
-                            <tr>
-                                <td class="bg-warning text-dark"><a href="#seo" class="text-dark">SEO</a></td>
-                            </tr>
-                            <tr>
-                                <td class="bg-info text-white"><a href="#technology" class="text-white">Technology</a></td>
-                            </tr>
-                            <tr>
-                                <td class="bg-light text-dark"><a href="#facts" class="text-dark">Interesting Facts</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="bg-dark text-white"><a href="#blogging" class="text-white">Blogging</a></td>
-                            </tr>
-                            <tr>
-                                <td class="bg-primary text-white"><a href="#youtube" class="text-white">YouTube</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                {{-- Left SideBar End--}}
-
-                {{-- Main Content Section --}}
-
-                <div class="col-md-8 col-lg-6 shadow bg-body ">
-                    <h1>What is email marketing</h1>
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">How To Get Started With Email Marketing & Make Money</h5>
-                            <p class="card-text">"Email marketing is a form of digital marketing that involves sending
-                                promotional messages or newsletters..</p>
-                            <a href="" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Post Title 2</h5>
-                            <p class="card-text">If you plan to use email to keep in touch with existing customers,
-                                 then your email list can be built largely by importing your existing customers details into ......</p>
-                            <a href="" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-               
-                {{-- main content section end --}}
-
-
-                <div class="col-md-8 col-lg-12">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Post Title 2</h5>
-                            <p class="card-text">What is email marketing? An overview and guide......</p>
-                            <a href="" class="btn btn-primary">Read More</a>
-                        </div>
+ <!-- Email Service Start -->
+ <div class="container-fluid service py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
+            
+            <h1 class="display-5 mb-4">What We Can Do For You</h1>
+            <p class="mb-0">Dolor sit amet consectetur, adipisicing elit. Ipsam, beatae maxime. Vel animi eveniet doloremque reiciendis soluta iste provident non rerum illum perferendis earum est architecto dolores vitae quia vero quod incidunt culpa corporis, porro doloribus. Voluptates nemo doloremque cum.
+            </p>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item text-center rounded p-4">
+                    <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i class="fas fa-mail-bulk fa-5x text-secondary"></i></div>
+                    <div class="service-content">
+                        <h4 class="mb-4">Email Newsletters</h4>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit
+                        </p>
+                        <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
                     </div>
                 </div>
-
-                <div class="col-md-8 col-lg-12">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Post Title 2</h5>
-                            <p class="card-text">A brief description of the post content...</p>
-                            <a href="" class="btn btn-primary">Read More</a>
-                        </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item text-center rounded p-4">
+                    <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i class="fas fa-thumbs-up fa-5x text-secondary"></i></div>
+                    <div class="service-content">
+                        <h4 class="mb-4">Acquistion Emails </h4>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit
+                        </p>
+                        <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
                     </div>
                 </div>
-                </div>
-
-
-
-                {{--Right  Side Bar Start --}}
-                <div class="col-lg-3 position-sticky sidebar">
-                    <div class="bg-body shadow rounded p-5 pt-0">
-                        <div class="row g-0">
-                            <div class="col-12">
-                                <div class="row g-0 align-items-center"> 
-                                    <div class="col-10">
-                                        <div class="features-content d-flex flex-column">
-                                            <a href="#" class="h6">PSL 2025 To Clash With IPL As PCB Reveals
-                                                Tentative Dates Amid Pakistan’s Scheduling Issues</a>
-                                            <small><i class="fa fa-clock"></i> Aug 05, 2024 08:14 PM IST</small>
-                                            <small><i class="fa fa-eye"></i> 3.5k Views</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="row g-0 align-items-center">
-
-                                    <div class="col-10">
-                                        <div class="features-content d-flex flex-column">
-                                            <a href="#" class="h6">Bangladesh Unrest: IndiGo And Air India Halt
-                                                Flights To Dhaka</a>
-                                            <small><i class="fa fa-clock"></i> Aug 05, 2024 07:29 PM IST</small>
-                                            <small><i class="fa fa-eye"></i> 3.5k Views</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="row g-0 align-items-center">
-
-                                    <div class="col-10">
-                                        <div class="features-content d-flex flex-column">
-                                            <a href="#" class="h6">Supreme Court Slams Delhi Coaching Centers as
-                                                ‘Death Traps,’ Demands Safety Measures</a>
-                                            <small><i class="fa fa-clock"></i> Aug 05, 2024 01:11 PM</small>
-                                            <small><i class="fa fa-eye"></i> 3.5k Views</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="row g-0 align-items-center">
-
-                                    <div class="col-10">
-                                        <div class="features-content d-flex flex-column">
-                                            <a href="#" class="h6">Next-Gen Maruti Dzire: Launching Soon With 30
-                                                km/l Mileage And Cutting-Edge Safety Technologies.</a>
-                                            <small><i class="fa fa-clock"></i> Aug 05, 2024 06:30 PM</small>
-                                            <small><i class="fa fa-eye"></i> 3.5k Views</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item text-center rounded p-4">
+                    <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i class="fa fa-subway fa-5x text-secondary"></i></div>
+                    <div class="service-content">
+                        <h4 class="mb-4">Retention Emails</h4>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit
+                        </p>
+                        <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
                     </div>
                 </div>
-                <!-- Right Sidebar Section End -->
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="service-item text-center rounded p-4">
+                    <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i class="fas fa-sitemap fa-5x text-secondary"></i></div>
+                    <div class="service-content">
+                        <h4 class="mb-4">Promotional Emails</h4>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit
+                        </p>
+                        <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item text-center rounded p-4">
+                    <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i class="fas fa-mail-bulk fa-5x text-secondary"></i></div>
+                    <div class="service-content">
+                        <h4 class="mb-4">Email Newsletters</h4>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit
+                        </p>
+                        <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item text-center rounded p-4">
+                    <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i class="fas fa-thumbs-up fa-5x text-secondary"></i></div>
+                    <div class="service-content">
+                        <h4 class="mb-4">Acquistion Emails </h4>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit
+                        </p>
+                        <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item text-center rounded p-4">
+                    <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i class="fa fa-subway fa-5x text-secondary"></i></div>
+                    <div class="service-content">
+                        <h4 class="mb-4">Retention Emails</h4>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit
+                        </p>
+                        <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="service-item text-center rounded p-4">
+                    <div class="service-icon d-inline-block bg-light rounded p-4 mb-4"><i class="fas fa-sitemap fa-5x text-secondary"></i></div>
+                    <div class="service-content">
+                        <h4 class="mb-4">Promotional Emails</h4>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.consectetur adipisicing elit
+                        </p>
+                        <a href="#" class="btn btn-light rounded-pill text-primary py-2 px-4">Read More</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    {{-- News Content End --}}
+</div>
+<!-- EMail Service End -->
 
-    <div id="trailer" class="section d-flex justify-content-center">
-        <div class="video-wrapper position-relative w-100" style="max-width: 1200px;">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item shadow-lg position-absolute top-0 start-0 w-100 h-100" src="https://www.youtube.com/embed/Go3QTwORnhY?si=PMGT69QWcM1XVPh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-    
-    
-    
-    
 
-    {{-- Read More Content Start --}}
-    <div class="container my-4">
-        <div class="row align-items-center">
+ {{-- Poster Start --}}
+ <section class="hero-section d-flex align-items-center">
+    <div class="container">
+        <div class="row">
             <div class="col-md-6">
-                <img src="{{asset('assets/img/email-marketing.webp')}}" class="img-fluid" alt="Email Marketing">
+                <img src="{{asset('assets/img/Animate.png')}}" alt="Illustration" class="img-fluid">
             </div>
-            <div class="col-md-6">
-                <h2>Your Content Title</h2>
-                <p>Your content goes here. You can add text, buttons, or any other HTML elements you need.</p>
-                <p>More content can go here.</p>
+            <div class="col-md-6 d-flex flex-column justify-content-center text-white text-center">
+                <h1 class="display-4 font-weight-bold">Learn Something New Every Day.</h1>
+                <p class="lead">Complete information in Hindi about Digital India, Technology, Online Business, Making Money, Life Success, Blogging, SEO, and the Internet.</p>
+                <p class="lead">Subscribe to our blog now to get notifications of our new posts.</p>
+                <form class="form-inline justify-content-center">
+                    <div class="form-row">
+                        <div class="col-auto">
+                            <input type="text" class="form-control mb-2" placeholder="Your Name">
+                        </div>
+                        <div class="col-auto">
+                            <input type="email" class="form-control mb-2" placeholder="Your Email Address">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-dark mb-2">Subscribe Now</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-    
-
-
-    {{-- Read More Content ENd --}}
-
-    {{-- Email Marketing End --}}
+</section>
+{{-- Poster End --}}
 
 
 

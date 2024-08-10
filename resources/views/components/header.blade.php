@@ -44,7 +44,7 @@
                         </div>
                     </div>
                     <a href="service.html" class="nav-item nav-link">SEO</a>
-                    <a href="project.html" class="nav-item nav-link">Technology</a>
+                    <a href="{{route('technology')}}" class="nav-item nav-link">Technology</a>
                     <a href="{{route('life')}}" class="nav-item nav-link">Life Success</a>
 
                     <div class="nav-item dropdown">
