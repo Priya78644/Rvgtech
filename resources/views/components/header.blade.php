@@ -30,14 +30,14 @@
             </button>
             <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
                 <div class="navbar-nav ms-auto mx-xl-auto p-0">
-                    <a href="{{route('home')}}" class="nav-item nav-link active text-secondary">Home</a>
+                    <a href="{{route('home')}}" class="nav-item nav-link active text-light">Home</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blogging</a>
                         <div class="dropdown-menu rounded">
                             <a href="{{route('email')}}" class="dropdown-item">Email Marketing</a>
-                            <a href="team.html" class="dropdown-item">Affiliate Marketing</a>
-                            <a href="testimonial.html" class="dropdown-item">Adsense</a>
-                            <a href="404.html" class="dropdown-item">Domain Registration</a>
+                            <a href="{{route('affiliate')}}" class="dropdown-item">Affiliate Marketing</a>
+                            <a href="{{route('adsens')}}" class="dropdown-item">Adsense</a>
+                            <a href="{{route('register')}}" class="dropdown-item">Domain Registration</a>
                             <a href="testimonial.html" class="dropdown-item">Blog Spot</a>
                             <a href="testimonial.html" class="dropdown-item">Word Press</a>
                             <a href="testimonial.html" class="dropdown-item">Web Hosting</a>
@@ -45,8 +45,7 @@
                     </div>
                     <a href="service.html" class="nav-item nav-link">SEO</a>
                     <a href="project.html" class="nav-item nav-link">Technology</a>
-                    <a href="service.html" class="nav-item nav-link">How to Make money</a>
-                    <a href="service.html" class="nav-item nav-link">Life Success</a>
+                    <a href="{{route('life')}}" class="nav-item nav-link">Life Success</a>
 
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
@@ -60,7 +59,7 @@
                             <a href="404.html" class="dropdown-item">Social Media</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="{{route('contact')}}" class="nav-item nav-link">Contact</a>
                 </div>
             </div>
             <div class="d-none d-xl-flex flex-shirink-0">

@@ -164,7 +164,6 @@
 .news-2 h3 {
     position: relative;
 }
-
 .news-2 h3::after {
     content: "";
     line-height: 1.3rem;
@@ -226,29 +225,25 @@
 .trending .card {
     transition: transform 0.2s, box-shadow 0.2s;
 }
-
 .trending .card:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
 /* trending places end  */
+
+
 
 
 .card-hover {
     transition: transform 0.3s;
 }
-
 .card-hover:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-
 .hover-effect {
     transition: transform 0.2s ease-in-out;
 }
-
 .hover-effect:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -268,7 +263,6 @@
     border-radius: 10px;
     z-index: -1;
 }
-
 .contact-map {
     background: rgba(238,28,35,255);
 }
@@ -282,7 +276,6 @@
 
 
 /*** Footer Start ***/
-
 .footer .short-link a,
 .footer .help-link a,
 .footer .contact-link a {
@@ -299,21 +292,23 @@
     background: rgba(238,28,35,255);
     border: 0;
 }
-
 /*** Footer End ***/
 
 
-
+/* Poster Start */
 .hero-section {
     background-color: rgba(238,28,35,255);
     color: white;
-    padding: 20px 0;
+    padding: 10px 0;
+    height: 80vh; /* Makes the section cover the full viewport height */
+    display: flex;
+    align-items: center; /* Center content vertically */
 }
 
 .hero-section img {
-    width: 100%;
+    width: 80%;
+    margin-bottom: 20px;
 }
-
 
 .hero-section .btn-dark {
     background-color: #000;
@@ -323,6 +318,7 @@
 @media (max-width: 768px) {
     .hero-section {
         text-align: center;
+        height: auto; /* Adjust height for smaller screens */
     }
 
     .hero-section .form-inline {
@@ -330,21 +326,48 @@
     }
 
     .hero-section .form-inline .form-control {
-        margin-bottom: 10px;
+        margin-bottom: 2px;
     }
 }
-
-
+/* Poster End */
 
 /* Video Start */
+/* /* Ensures the section containing the video takes full width and centers the content */
+#trailer {
+    width: 100%;
+    max-width: 1200px; /* Adjust max-width based on your design preference */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Maintains a responsive aspect ratio for the video */
 .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
     max-width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background: #000; /* Background color while the video loads */
 }
 
-#soundToggle {
-    z-index: 2;
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
+/* Makes the iframe's shadow visible on all sides */
+iframe.shadow-lg {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 
+                0px 7px 9px rgba(0, 0, 0, 0.07), 
+                0px 9px 12px rgba(0, 0, 0, 0.06);
+}
 
 /* Video End */
+
+
+
+

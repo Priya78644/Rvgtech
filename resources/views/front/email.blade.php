@@ -159,12 +159,15 @@
     </div>
     {{-- News Content End --}}
 
-    <div id="trailer" class="section d-flex justify-content-center embed-responsive embed-responsive-21by9">
-        <div class="video-wrapper position-relative">
-            <iframe class="embed-responsive-item shadow-lg" width="960" height="515" src="https://www.youtube.com/embed/Go3QTwORnhY?si=PMGT69QWcM1XVPh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          
+    <div id="trailer" class="section d-flex justify-content-center">
+        <div class="video-wrapper position-relative w-100" style="max-width: 1200px;">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item shadow-lg position-absolute top-0 start-0 w-100 h-100" src="https://www.youtube.com/embed/Go3QTwORnhY?si=PMGT69QWcM1XVPh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
+    
+    
     
     
 

@@ -5,14 +5,16 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
-
 Route::get('/email', [HomeController::class, 'email'])->name('email');
-
 
 Route::get('/details', [HomeController::class, 'details'])->name('detail');
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/affiliate', [HomeController::class, 'affiliate'])->name('affiliate');
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/adsens', [HomeController::class, 'adsens'])->name('adsens');
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/register', [HomeController::class, 'register'])->name('register');
+
+Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+
+Route::get('/life', [HomeController::class, 'life'])->name('life');

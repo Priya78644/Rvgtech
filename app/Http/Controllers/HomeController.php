@@ -24,4 +24,16 @@ class HomeController extends Controller
     public function adsens (){
         return view('front.adsens');
     }
+
+    public function register (){
+        return view('front.register');
+    }
+
+    public function contact (){
+        return view('front.contact');
+    }
+
+    public function life (){
+        return view('front.life');
+    }
 }
