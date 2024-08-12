@@ -25,10 +25,6 @@ class HomeController extends Controller
         return view('front.adsens');
     }
 
-    public function register (){
-        return view('front.register');
-    }
-
     public function contact (){
         return view('front.contact');
     }
@@ -39,5 +35,9 @@ class HomeController extends Controller
 
     public function technology (){
         return view('front.technology');
+    }
+
+    public function internet (){
+        return view('front.internet');
     }
 }

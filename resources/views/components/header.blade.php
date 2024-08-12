@@ -1,13 +1,13 @@
   <!-- Topbar Start -->
-  <div class="container-fluid bg-dark py-2 d-none d-md-flex">
+<div class="container-fluid bg-dark py-2 d-md-flex">
     <div class="container">
-        <div class="d-flex justify-content-between topbar">
-            <div class="top-info">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center topbar">
+            <div class="top-info text-center text-md-start mb-2 mb-md-0">
                 <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2 text-danger"></i></a>Real Victory Groups, Kanpur</small>
                 <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-danger"></i></a>Email@Example.com</small>
             </div>
-            <div id="note" class="text-secondary d-none d-xl-flex"><small>Note : We help you to Grow your Business</small></div>
-            <div class="top-link">
+            <div id="note" class="text-secondary mb-2 mb-md-0 d-none d-xl-flex"><small>Note: We help you to Grow your Business</small></div>
+            <div class="top-link text-center text-md-end">
                 <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a>
                 <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-twitter text-primary"></i></a>
                 <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-instagram text-primary"></i></a>
@@ -37,10 +37,9 @@
                             <a href="{{route('email')}}" class="dropdown-item">Email Marketing</a>
                             <a href="{{route('affiliate')}}" class="dropdown-item">Affiliate Marketing</a>
                             <a href="{{route('adsens')}}" class="dropdown-item">Adsense</a>
-                            <a href="{{route('register')}}" class="dropdown-item">Domain Registration</a>
+                            
                             <a href="testimonial.html" class="dropdown-item">Blog Spot</a>
                             <a href="testimonial.html" class="dropdown-item">Word Press</a>
-                            <a href="testimonial.html" class="dropdown-item">Web Hosting</a>
                         </div>
                     </div>
                     <a href="service.html" class="nav-item nav-link">SEO</a>
@@ -50,7 +49,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
                         <div class="dropdown-menu rounded">
-                            <a href="blog.html" class="dropdown-item">Internet</a>
+                            <a href="{{route('internet')}}" class="dropdown-item">Internet</a>
                             <a href="team.html" class="dropdown-item">Education</a>
                             <a href="testimonial.html" class="dropdown-item">Interesting Fact</a>
                             <a href="404.html" class="dropdown-item">Business Startup</a>

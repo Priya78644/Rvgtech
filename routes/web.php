@@ -13,10 +13,10 @@ Route::get('/affiliate', [HomeController::class, 'affiliate'])->name('affiliate'
 
 Route::get('/adsens', [HomeController::class, 'adsens'])->name('adsens');
 
-Route::get('/register', [HomeController::class, 'register'])->name('register');
-
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 
 Route::get('/life', [HomeController::class, 'life'])->name('life');
 
 Route::get('/technology', [HomeController::class, 'technology'])->name('technology');
+
+Route::get('/internet', [HomeController::class, 'internet'])->name('internet');
