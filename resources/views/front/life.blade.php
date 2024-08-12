@@ -20,12 +20,8 @@
             <p>To inspire financial hope and freedom by revealing little-known truths about money while investing in trusting, long-term relationships.To inspire financial hope and freedom by revealing little-known truths about money while investing in trusting, long-term relationships</p>
             
         </div>
-
     </div>
-
 </div>
-
-
 
 <div id="trailer" class="section d-flex justify-content-center">
     <div class="video-wrapper position-relative w-100" style="max-width: 1200px;">
@@ -35,22 +31,6 @@
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   {{-- Poster Start --}}

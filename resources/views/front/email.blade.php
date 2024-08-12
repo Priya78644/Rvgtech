@@ -4,10 +4,6 @@
 
 <!-- Hero Header Start -->
 <div class="hero-header overflow-hidden px-5">
-    <div class="rotate-img">
-        <img src="{{asset('assets/img/sty-1.png')}}" class="img-fluid w-100" alt="">
-        <div class="rotate-sty-2"></div>
-    </div>
     <div class="row gy-5 align-items-center">
         <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
             <h1 class="display-4 text-dark mb-4 wow fadeInUp" data-wow-delay="0.3s">Turn Emails into Revenue</h1>

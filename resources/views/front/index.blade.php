@@ -374,7 +374,7 @@
             <div class="col">
                 <a href="#" class="trending">
                     <div class="card h-100 card-hover">
-                        <img class="card-img-top" src="{{asset('assets/img/website.jpg')}}" alt="Card image cap">
+                        <img class="card-img-top" src="{{asset('assets/img/Website.jpg')}}" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title text-danger">Blogging</h5>
                             <p class="card-text text-dark"> Learn how to create a site from scratch with this comprehensive beginner's guide! We walk you through the process from start to publish.....
