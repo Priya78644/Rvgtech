@@ -3,15 +3,13 @@
 
 
 <main class="container my-5">
+    <!-- Sections Start -->
     <section id="section1" class="mb-4">
         <h2 class="text-center">Introduction</h2>
         <div class="card">
             <img src="{{asset('assets/img/future-edu.jpg')}}" class="card-img-top" alt="Introduction to Education">
             <div class="card-body">
-                <p class="card-text text-dark">Education is a fundamental aspect of human development and personal growth. It shapes our skills, knowledge, and perspectives, contributing significantly to our overall quality of life.
-                    Investing in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous society
-
-                </p>
+                <p class="card-text text-dark">Education is a fundamental aspect of human development and personal growth...</p>
             </div>
         </div>
     </section>
@@ -21,9 +19,7 @@
         <div class="card">
             <img src="{{asset('assets/img/edu.jpg')}}" class="card-img-top" alt="Benefits of Education">
             <div class="card-body">
-                <p class="card-text text-dark">Education offers numerous benefits, including improved career prospects, increased knowledge, and better quality of life. It also fosters critical thinking and problem-solving skills.
-                    Investing in education can lead to a more enlightened and prosperous societyAnyone who has begun to think places some portion of the world in jeopardy.” Anyone who has begun to think places some portion of the world in jeopardy.”
-                </p>
+                <p class="card-text text-dark">Education offers numerous benefits, including improved career prospects...</p>
             </div>
         </div>
     </section>
@@ -33,9 +29,7 @@
         <div class="card">
             <img src="{{asset('assets/img/education.jpg')}}" class="card-img-top" alt="Impact of Education">
             <div class="card-body">
-                <p class="card-text text-dark">The impact of education extends beyond individual growth; it influences societal progress and economic development. Educated individuals contribute to innovation and community well-being.
-                    Investing in education can lead to a more enlightened and prosperous society Anyone who has begun to think places some portion of the world in jeopardy.”Anyone who has begun to think places some portion of the world in jeopardy.”Anyone who has begun to think places some portion of the world in jeopardy.”Anyone who has begun to think places some portion of the world in jeopardy.”Anyone who has begun to think places some portion of the world in jeopardy.”Anyone who has begun to think places some portion of the world in jeopardy.”Anyone who has begun to think places some portion of the world in jeopardy.”Anyone who has begun to think places some portion of the world in jeopardy.”Anyone who has begun to think places some portion of the world in jeopardy.”Anyone who has begun to think places some portion of the world in jeopardy.”
-                </p>
+                <p class="card-text text-dark">The impact of education extends beyond individual growth...</p>
             </div>
         </div>
     </section>
@@ -45,18 +39,14 @@
         <div class="card">
             <img src="{{asset('assets/img/book.jpg')}}" class="card-img-top" alt="Conclusion on Education">
             <div class="card-body">
-                <p class="card-text text-dark">Education remains one of the most powerful tools for creating positive change in the world. Investing in education can lead to a more enlightened and prosperous society.
-                    Investing in education can lead to a more enlightened and prosperous society Investing in education can lead to a more enlightened and prosperous society Investing in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous societyInvesting in education can lead to a more enlightened and prosperous society
-                </p>
+                <p class="card-text text-dark">Education remains one of the most powerful tools for creating positive change...</p>
             </div>
         </div>
     </section>
+    <!-- Sections End -->
 </main>
 
-
-
-{{-- Cards Start --}}
-
+<!-- Cards Start -->
 <div class="container mt-5">
     <div class="row">
         <div class="col-lg-4 col-md-6 mb-4">
@@ -64,7 +54,7 @@
                 <img src="{{asset('assets/img/educard1.png')}}" class="card-img-top" alt="Image 1">
                 <div class="card-body">
                     <h5 class="card-title">Card 1</h5>
-                    <p class="card-text text-dark">Education is a once in a lifetime opportunity to open children’s hearts and minds to the unbelievable wonder of the universe.</p>
+                    <p class="card-text text-dark">Education is a once in a lifetime opportunity...</p>
                 </div>
             </div>
         </div>
@@ -73,7 +63,7 @@
                 <img src="{{asset('assets/img/learn.png')}}" class="card-img-top" alt="Image 2">
                 <div class="card-body">
                     <h5 class="card-title">Card 2</h5>
-                    <p class="card-text text-dark">Experience is not what happens to you; it’s what you do with what happens to you”.</p>
+                    <p class="card-text text-dark">Experience is not what happens to you...</p>
                 </div>
             </div>
         </div>
@@ -82,15 +72,13 @@
                 <img src="{{asset('assets/img/book.jpg')}}" class="card-img-top" alt="Image 3">
                 <div class="card-body">
                     <h5 class="card-title">Card 3</h5>
-                    <p class="card-text text-dark">“The content of a book holds the power of education and it is with this power that we can shape our future and change lives.”</p>
+                    <p class="card-text text-dark">The content of a book holds the power of education...</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-{{-- Cards End --}}
-
+<!-- Cards End -->
 
 
 

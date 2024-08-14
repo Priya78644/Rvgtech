@@ -4,9 +4,9 @@
 
 
 <!-- Header Section -->
-<header class="bg-danger text-white text-center py-5">
+<header class="internet text-white text-center py-5">
     <div class="container">
-        <h1 class="display-4">Fast & Reliable Internet</h1>
+        <h1 class="display-4 text-light">Fast & Reliable Internet</h1>
         <p class="lead">Experience the best internet service with unlimited data and 24/7 customer support.</p>
         <a href="#plans" class="btn btn-primary btn-lg">View Plans</a>
     </div>
@@ -26,7 +26,7 @@
             <div class="col-md-4">
                 <div class="card border-0">
                     <div class="card-body text-center">
-                        <i class="bi bi-speedometer2 display-4 text-primary"></i>
+                        <i class="bi bi-speedometer2 display-4 text-danger"></i>
                         <h5 class="card-title mt-3">High-Speed Internet</h5>
                         <p class="card-text">Enjoy ultra-fast internet speeds for streaming, gaming, and more.</p>
                     </div>
@@ -35,7 +35,7 @@
             <div class="col-md-4">
                 <div class="card border-0">
                     <div class="card-body text-center">
-                        <i class="bi bi-shield-lock-fill display-4 text-primary"></i>
+                        <i class="bi bi-shield-lock-fill display-4 text-danger"></i>
                         <h5 class="card-title mt-3">Secure Connection</h5>
                         <p class="card-text">Our advanced security protocols keep your data safe and secure.</p>
                     </div>
@@ -44,7 +44,7 @@
             <div class="col-md-4">
                 <div class="card border-0">
                     <div class="card-body text-center">
-                        <i class="bi bi-headset display-4 text-primary"></i>
+                        <i class="bi bi-headset display-4 text-danger"></i>
                         <h5 class="card-title mt-3">24/7 Support</h5>
                         <p class="card-text">Our dedicated support team is available anytime to assist you.</p>
                     </div>

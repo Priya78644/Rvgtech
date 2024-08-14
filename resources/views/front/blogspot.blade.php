@@ -6,56 +6,57 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-md-4 blog-post">
-            <img src="{{asset('assets/img/Supreme-Court.webp')}}" alt="Blog Image 1">
+            <img src="{{asset('assets/img/Supreme-Court.webp')}}" alt="Blog Image 1" class="img-fluid blog-img">
             <h2 class="blog-title">Blog Post Title 1</h2>
             <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis, nunc vel auctor aliquet, justo erat.</p>
         </div>
         <div class="col-md-4 blog-post">
-            <img src="{{asset('assets/img/future-edu.jpg')}}" alt="Blog Image 2">
+            <img src="{{asset('assets/img/future-edu.jpg')}}" alt="Blog Image 2" class="img-fluid blog-img">
             <h2 class="blog-title">Blog Post Title 2</h2>
             <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis, nunc vel auctor aliquet, justo erat.</p>
         </div>
         <div class="col-md-4 blog-post">
-            <img src="{{asset('assets/img/Supreme-')}}" alt="Blog Image 3">
+            <img src="{{asset('assets/img/Supreme-')}}" alt="Blog Image 3" class="img-fluid blog-img">
             <h2 class="blog-title">Blog Post Title 3</h2>
             <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis, nunc vel auctor aliquet, justo erat.</p>
         </div>
     </div>
     <div class="row">
         <div class="col-md-4 blog-post">
-            <img src="{{asset('assets/img/life2.jpg')}}" alt="Blog Image 4">
+            <img src="{{asset('assets/img/life2.jpg')}}" alt="Blog Image 4" class="img-fluid blog-img">
             <h2 class="blog-title">Blog Post Title 4</h2>
             <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis, nunc vel auctor aliquet, justo erat.</p>
         </div>
         <div class="col-md-4 blog-post">
-            <img src="{{asset('assets/img/life1.jpg')}}" alt="Blog Image 5">
+            <img src="{{asset('assets/img/life1.jpg')}}" alt="Blog Image 5" class="img-fluid blog-img">
             <h2 class="blog-title">Blog Post Title 5</h2>
             <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis, nunc vel auctor aliquet, justo erat.</p>
         </div>
         <div class="col-md-4 blog-post">
-            <img src="{{asset('assets/img/Af.webp')}}" alt="Blog Image 6">
+            <img src="{{asset('assets/img/Af.webp')}}" alt="Blog Image 6" class="img-fluid blog-img">
             <h2 class="blog-title">Blog Post Title 6</h2>
             <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis, nunc vel auctor aliquet, justo erat.</p>
         </div>
     </div>
     <div class="row">
         <div class="col-md-4 blog-post">
-            <img src="{{asset('assets/img/email-marketing.webp')}}" alt="Blog Image 4">
+            <img src="{{asset('assets/img/email-marketing.webp')}}" alt="Blog Image 4" class="img-fluid blog-img">
             <h2 class="blog-title">Blog Post Title 4</h2>
             <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis, nunc vel auctor aliquet, justo erat.</p>
         </div>
         <div class="col-md-4 blog-post">
-            <img src="{{asset('assets/img/edu.jpg')}}" alt="Blog Image 5">
+            <img src="{{asset('assets/img/edu.jpg')}}" alt="Blog Image 5" class="img-fluid blog-img">
             <h2 class="blog-title">Blog Post Title 5</h2>
             <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis, nunc vel auctor aliquet, justo erat.</p>
         </div>
         <div class="col-md-4 blog-post">
-            <img src=" {{asset('assets/img/Mobile.jpg')}} " alt="Blog Image 6">
+            <img src=" {{asset('assets/img/Mobile.jpg')}} " alt="Blog Image 6" class="img-fluid blog-img">
             <h2 class="blog-title">Blog Post Title 6</h2>
             <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis, nunc vel auctor aliquet, justo erat.</p>
         </div>
     </div>
 </div>
+
 
 
  {{-- Poster Start --}}

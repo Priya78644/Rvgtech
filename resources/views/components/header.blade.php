@@ -6,7 +6,7 @@
                 <small class="me-3 text-white-50"><a href="#"><i class="fas fa-map-marker-alt me-2 text-danger"></i></a>Real Victory Groups, Kanpur</small>
                 <small class="me-3 text-white-50"><a href="#"><i class="fas fa-envelope me-2 text-danger"></i></a>Email@Example.com</small>
             </div>
-            <div id="note" class="text-secondary mb-2 mb-md-0 d-none d-xl-flex"><small>Note: We help you to Grow your Business</small></div>
+            <div id="note" class="text-light mb-2 mb-md-0 d-none d-xl-flex"><small>Note: We help you to Grow your Business</small></div>
             <div class="top-link text-center text-md-end">
                 <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a>
                 <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-twitter text-primary"></i></a>
