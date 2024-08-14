@@ -1,57 +1,61 @@
 .btn {
-font-weight: 600;
-transition: .5s;
+    font-weight: 600;
+    transition: 0.5s;
 }
 
 .btn-square {
-width: 38px;
-height: 38px;
+    width: 38px;
+    height: 38px;
 }
 
 .btn-sm-square {
-width: 32px;
-height: 32px;
+    width: 32px;
+    height: 32px;
 }
 
 .btn-md-square {
-width: 46px;
-height: 46px;
+    width: 46px;
+    height: 46px;
 }
 
 .btn-lg-square {
-width: 58px;
-height: 58px;
+    width: 58px;
+    height: 58px;
 }
 .btn-square,
 .btn-sm-square,
 .btn-md-square,
 .btn-lg-square {
-padding: 0;
-display: flex;
-align-items: center;
-justify-content: center;
-font-weight: normal;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
 }
 .back-to-top {
-position: fixed;
-width: 50px;
-height: 50px;
-right: 30px;
-bottom: 30px;
-z-index: 99;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
 }
 .btn.btn-primary {
-background-color: red; /* Bootstrap Primary Color */
-color: white;
-border: none;
-transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: red; /* Bootstrap Primary Color */
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 .btn.btn-primary:hover {
-background-color:rgba(238,28,35,255) ; /* Change background color to red on hover */
-color: white; /* Change text color to black on hover */
+    background-color: rgba(
+        238,
+        28,
+        35,
+        255
+    ); /* Change background color to red on hover */
+    color: white; /* Change text color to black on hover */
 }
 /*** Button End ***/
-
 
 /*** Topbar Start ***/
 .topbar .top-info {
@@ -77,8 +81,12 @@ color: white; /* Change text color to black on hover */
 }
 
 @keyframes mymove {
-    from { right: 100%; }
-    to { right: -100%; }
+    from {
+        right: 100%;
+    }
+    to {
+        right: -100%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -117,227 +125,208 @@ color: white; /* Change text color to black on hover */
 
 /*** Topbar End ***/
 
-
 /*** Navbar Start ***/
-.bg-red{
-background-color: rgba(238,28,35,255);
+.bg-red {
+    background-color: rgba(238, 28, 35, 255);
 }
 .navbar .navbar-nav {
-padding: 15px 0;
+    padding: 15px 0;
 }
 .navbar .navbar-nav .nav-link {
-padding: 10px;
-color: var(--bs-white);
-font-size: 14px;
-outline: none;
+    padding: 10px;
+    color: var(--bs-white);
+    font-size: 14px;
+    outline: none;
 }
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-color:#ffffff;
+    color: #ffffff;
 }
 .navbar .dropdown-toggle::after {
-border: none;
-content: "\f107";
-font-family: "font awesome 5 free";
-font-weight: 900;
-vertical-align: middle;
-margin-left: 8px;
+    border: none;
+    content: "\f107";
+    font-family: "font awesome 5 free";
+    font-weight: 900;
+    vertical-align: middle;
+    margin-left: 8px;
 }
 @media (min-width: 992px) {
-.navbar .nav-item .dropdown-menu {
-display: block;
-visibility: hidden;
-top: 100%;
-transform: rotateX(-75deg);
-transform-origin: 0% 0%;
-transition: .5s;
-opacity: 0;
-}
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        visibility: hidden;
+        top: 100%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+        transition: 0.5s;
+        opacity: 0;
+    }
 }
 .navbar .nav-item:hover .dropdown-menu {
-transform: rotateX(0deg);
-visibility: visible;
-transition: .5s;
-opacity: 1;
+    transform: rotateX(0deg);
+    visibility: visible;
+    transition: 0.5s;
+    opacity: 1;
 }
 /*** Navbar End ***/
 
-
 /*** Features Start ***/
 .features {
-width: 100%;
-margin-top: auto;
+    width: 100%;
+    margin-top: auto;
 }
 /*** Features End ***/
 
-
-
 /*** Top News Start ***/
 .news-2 h3 {
-position: relative;
-margin-top: 0;
+    position: relative;
+    margin-top: 0;
 }
 .news-2 h3::after {
-content: "";
-line-height: 1.3rem;
-background: var(--bs-secondary);
-position: absolute;
-width: 68%;
-top: 20%;
-transform: translateY(-50%);
-height: 1px;
-right: 0;
-opacity: 0.2;
+    content: "";
+    line-height: 1.3rem;
+    background: var(--bs-secondary);
+    position: absolute;
+    width: 68%;
+    top: 20%;
+    transform: translateY(-50%);
+    height: 1px;
+    right: 0;
+    opacity: 0.2;
 }
 /*** Top News End ***/
 
-
 /*** Latest News Start ***/
-.latest-news .latest-news-carousel.owl-carousel{
-position: relative;
+.latest-news .latest-news-carousel.owl-carousel {
+    position: relative;
 }
 .latest-news .latest-news-carousel.owl-carousel .owl-nav .owl-prev {
-position: absolute;
-top: -65px;
-right: 70px;
-font-size: 20px;
-padding: 2px 20px;
-transition: 0.5s;
-margin-right: 10px;
-border: 1px solid var(--bs-primary);
-color: var(--bs-dark);
-border-radius: 20px;
+    position: absolute;
+    top: -65px;
+    right: 70px;
+    font-size: 20px;
+    padding: 2px 20px;
+    transition: 0.5s;
+    margin-right: 10px;
+    border: 1px solid var(--bs-primary);
+    color: var(--bs-dark);
+    border-radius: 20px;
 }
 
 .latest-news .latest-news-carousel.owl-carousel .owl-nav .owl-next {
-position: absolute;
-top: -65px;
-right: 0;
-font-size: 20px;
-margin-left: 10px;
-padding: 2px 20px;
-transition: 0.5s;
-border: 1px solid var(--bs-primary);
-color: var(--bs-dark);
-border-radius: 20px;
+    position: absolute;
+    top: -65px;
+    right: 0;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 2px 20px;
+    transition: 0.5s;
+    border: 1px solid var(--bs-primary);
+    color: var(--bs-dark);
+    border-radius: 20px;
 }
 .latest-news .latest-news-carousel.owl-carousel .owl-nav .owl-prev:hover,
 .latest-news .latest-news-carousel.owl-carousel .owl-nav .owl-next:hover {
-background: var(--bs-primary);
-color: var(--bs-white);
-border-radius: 10px;
+    background: var(--bs-primary);
+    color: var(--bs-white);
+    border-radius: 10px;
 }
 /*** Latest News End ***/
 
-
 /* trending places start */
-.card{
-background-color:rgba(216, 40, 40, 0.027);
+.card {
+    background-color: rgba(216, 40, 40, 0.027);
 }
 .trending .card {
-transition: transform 0.2s, box-shadow 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 .trending .card:hover {
-transform: translateY(-10px);
-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 /* trending places end */
 
-
-
-
 .card-hover {
-transition: transform 0.3s;
+    transition: transform 0.3s;
 }
 .card-hover:hover {
-transform: scale(1.05);
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .hover-effect {
-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
 }
 .hover-effect:hover {
-transform: scale(1.05);
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
-
-
-
 
 /* Poster Start............... */
 .hero-section {
-background-color: rgba(238,28,35,255);
-color: white;
-padding: 10px 0;
-height: 80vh; /* Makes the section cover the full viewport height */
-display: flex;
-align-items: center; /* Center content vertically */
+    background-color: rgba(238, 28, 35, 255);
+    color: white;
+    padding: 10px 0;
+    height: 80vh; /* Makes the section cover the full viewport height */
+    display: flex;
+    align-items: center; /* Center content vertically */
 }
 .hero-section img {
-width: 80%;
-margin-bottom: 20px;
+    width: 80%;
+    margin-bottom: 20px;
 }
 .hero-section .btn-dark {
-background-color: #000;
-border: none;
+    background-color: #000;
+    border: none;
 }
 
 @media (max-width: 768px) {
-.hero-section {
-text-align: center;
-height: auto; /* Adjust height for smaller screens */
-}
-.hero-section .form-inline {
-flex-direction: column;
-}
+    .hero-section {
+        text-align: center;
+        height: auto; /* Adjust height for smaller screens */
+    }
+    .hero-section .form-inline {
+        flex-direction: column;
+    }
 
-.hero-section .form-inline .form-control {
-margin-bottom: 2px;
-}
+    .hero-section .form-inline .form-control {
+        margin-bottom: 2px;
+    }
 }
 /* Poster End............... */
-
 
 /* Life Page Css Start................................................... */
 
 /* Video Start */
 #trailer {
-width: 100%;
-max-width: 1200px;
-margin: 0 auto;
-padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 /* Maintains a responsive aspect ratio for the video */
 .video-wrapper {
-position: relative;
-padding-bottom: 45.35%; /* 16:9 aspect ratio */
-height: 0;
-overflow: hidden;
-max-width: 100%;
-background: #000;
+    position: relative;
+    padding-bottom: 45.35%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
 }
 .video-wrapper iframe {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 /* Makes the iframe's shadow visible on all sides */
 iframe.shadow-lg {
-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1),
-0px 7px 9px rgba(0, 0, 0, 0.07),
-0px 9px 12px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 7px 9px rgba(0, 0, 0, 0.07),
+        0px 9px 12px rgba(0, 0, 0, 0.06);
 }
 /* Video End */
 
 /* Life PAge Css End.......................................................... */
-
-
-
-
 
 /* Email Page Css Star.....................................t */
 .header::after {
@@ -351,15 +340,21 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1),
     border-radius: 22% 78% 33% 67% / 32% 0% 100% 68%;
     animation: bgMove 5s linear infinite;
     z-index: -1;
-  }
-  
-  @keyframes bgMove {
-    0% {right: 0px;}
-    50% {right: 20px;}
-    100% {right: 0px;}
-  }
-  
-  .header::before {
+}
+
+@keyframes bgMove {
+    0% {
+        right: 0px;
+    }
+    50% {
+        right: 20px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+
+.header::before {
     content: "";
     position: absolute;
     bottom: -9%;
@@ -371,51 +366,76 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1),
     background: transparent;
     animation: RotateMoveHeader 5s linear infinite;
     z-index: -1;
-  }
-  
-  @keyframes RotateMoveHeader {
+}
+
+@keyframes RotateMoveHeader {
     0% {
-      transform: rotateZ(0deg) rotate(0deg) translate3d(0, 1%, 0) rotateZ(0deg);
+        transform: rotateZ(0deg) rotate(0deg) translate3d(0, 1%, 0)
+            rotateZ(0deg);
     }
     100% {
-      transform: rotateZ(360deg) rotate(360deg) translate3d(0, 1%, 0) rotateZ(-360deg);
+        transform: rotateZ(360deg) rotate(360deg) translate3d(0, 1%, 0)
+            rotateZ(-360deg);
     }
-    0% {bottom: 0px;}
-    50% {left: -10px;}
-    75% {bottom: 9%;}
-    100% {bottom: 0px;}
-  }
-  
-  .hero-header {
+    0% {
+        bottom: 0px;
+    }
+    50% {
+        left: -10px;
+    }
+    75% {
+        bottom: 9%;
+    }
+    100% {
+        bottom: 0px;
+    }
+}
+
+.hero-header {
     padding-top: 2vw;
     padding-bottom: 10vw;
     position: relative;
-  }
-  
-  .hero-header::after {
+}
+
+.hero-header::after {
     content: "";
     position: absolute;
     left: 10vw;
     bottom: 10vw;
     width: 8vw; /* Adjusted size for responsiveness */
     height: 7vw; /* Adjusted size for responsiveness */
-    background: url("{{ asset('assets/img/sty-1.png') }}") center center no-repeat;
+    background: url("{{ asset('assets/img/sty-1.png') }}") center center
+        no-repeat;
     background-size: contain; /* Ensure the image scales properly */
     animation: RotateMoveSty-3 45s linear infinite;
     z-index: -1;
-  }
-  
-  @keyframes RotateMoveSty-3 {
-    0% {left: 10vw;}
-    40% {bottom: 0;}
-    50% {left: 70vw;}
-    70% {bottom: 50vw;}
-    80% {left: 40vw;}
-    95% {bottom: 0;}
-    100% {left: 10vw;}
-  }
-  
-  .hero-header::before {
+}
+
+@keyframes RotateMoveSty-3 {
+    0% {
+        left: 10vw;
+    }
+    40% {
+        bottom: 0;
+    }
+    50% {
+        left: 70vw;
+    }
+    70% {
+        bottom: 50vw;
+    }
+    80% {
+        left: 40vw;
+    }
+    95% {
+        bottom: 0;
+    }
+    100% {
+        left: 10vw;
+    }
+}
+
+.hero-header::before {
     content: "";
     position: absolute;
     left: 10vw;
@@ -427,25 +447,39 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1),
     background: transparent;
     animation: RotateMoveSty-4 45s linear infinite;
     z-index: -1;
-  }
-  
-  @keyframes RotateMoveSty-4 {
-    0% {left: 10vw;}
-    40% {bottom: 0;}
-    50% {left: 70vw;}
-    70% {bottom: 50vw;}
-    80% {left: 40vw;}
-    95% {bottom: 0;}
-    100% {left: 10vw;}
-  }
-  
-  .hero-header .rotate-img {
+}
+
+@keyframes RotateMoveSty-4 {
+    0% {
+        left: 10vw;
+    }
+    40% {
+        bottom: 0;
+    }
+    50% {
+        left: 70vw;
+    }
+    70% {
+        bottom: 50vw;
+    }
+    80% {
+        left: 40vw;
+    }
+    95% {
+        bottom: 0;
+    }
+    100% {
+        left: 10vw;
+    }
+}
+
+.hero-header .rotate-img {
     position: absolute;
     top: 5vw;
     left: 5vw;
-  }
-  
-  .hero-header .rotate-img .rotate-sty-2 {
+}
+
+.hero-header .rotate-img .rotate-sty-2 {
     position: absolute;
     top: 10vw;
     left: 5vw;
@@ -456,75 +490,95 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1),
     background: transparent;
     animation: RotateMoveSty-2 45s linear infinite;
     z-index: -1;
-  }
-  
-  @keyframes RotateMoveSty-2 {
-    0% {left: 0;}
-    40% {top: -3vw;}
-    50% {left: 50vw;}
-    70% {top: 20vw;}
-    80% {left: 10vw;}
-    95% {top: -3vw;}
-    100% {left: 0;}
-  }
-  
-  .hero-header .rotate-img img {
+}
+
+@keyframes RotateMoveSty-2 {
+    0% {
+        left: 0;
+    }
+    40% {
+        top: -3vw;
+    }
+    50% {
+        left: 50vw;
+    }
+    70% {
+        top: 20vw;
+    }
+    80% {
+        left: 10vw;
+    }
+    95% {
+        top: -3vw;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.hero-header .rotate-img img {
     position: relative;
     animation: RotateMove 30s linear infinite;
     z-index: -1;
-  }
-  
-  @keyframes RotateMove {
-    0% {left: 0;}
-    50% {left: 20vw;}
-    100% {left: 0;}
-  }
-  
-  /* Mobile View Adjustments */
-  @media (max-width: 992px) {
+}
+
+@keyframes RotateMove {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 20vw;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+/* Mobile View Adjustments */
+@media (max-width: 992px) {
     .hero-header {
-      padding-top: 0;
-      padding-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
     }
-  
+
     .hero-header .rotate-img img {
-      margin-top: 0;
+        margin-top: 0;
     }
-  }
-  
-  @media (max-width: 350px) {
+}
+
+@media (max-width: 350px) {
     .hero-header .rotate-img {
-      position: absolute;
-      top: 1vw;
+        position: absolute;
+        top: 1vw;
     }
-  }
-  
-  /*** tech Service Start ***/
-  .service .service-item {
+}
+
+/*** tech Service Start ***/
+.service .service-item {
     box-shadow: 0 0 4vw rgba(0, 0, 0, 0.1); /* Adjusted shadow for responsiveness */
-  }
-  
-  .service .service-item,
-  .service .service-item .service-icon,
-  .service .service-item a {
+}
+
+.service .service-item,
+.service .service-item .service-icon,
+.service .service-item a {
     transition: 0.5s;
-  }
-  
-  .service .service-item:hover {
+}
+
+.service .service-item:hover {
     background: rgba(102, 16, 242, 0.09);
     border: 1px solid rgba(102, 16, 242, 0.2);
-  }
-  
-  .service .service-item:hover .service-icon,
-  .service .service-item:hover a {
+}
+
+.service .service-item:hover .service-icon,
+.service .service-item:hover a {
     background: var(--bs-white) !important;
-  }
-  
-  .service .service-item:hover a:hover {
+}
+
+.service .service-item:hover a:hover {
     background: rgba(238, 28, 35, 1) !important;
     color: var(--bs-white);
-  }
-  
+}
+
 /***tech Service End ***/
 
 /*** Email Page Css End............................................ ***/
@@ -537,7 +591,8 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1),
     z-index: 1;
 }
 
-.contact::after, .contact::before {
+.contact::after,
+.contact::before {
     content: "";
     position: absolute;
     border-radius: 200px;
@@ -564,23 +619,44 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1),
 }
 
 @keyframes ContactMoveLeft {
-    0%   {left: 0px;}
-    25%  {top: 100px;}
-    50%  {left: 90%;}
-    75%  {top: 80%;}
-    100% {left: 0px;}
+    0% {
+        left: 0px;
+    }
+    25% {
+        top: 100px;
+    }
+    50% {
+        left: 90%;
+    }
+    75% {
+        top: 80%;
+    }
+    100% {
+        left: 0px;
+    }
 }
 
 @keyframes ContactMoveRight {
-    0%   {right: 0px;}
-    25%  {top: 100px;}
-    50%  {right: 90%;}
-    75%  {top: 80%;}
-    100% {right: 0px;}
+    0% {
+        right: 0px;
+    }
+    25% {
+        top: 100px;
+    }
+    50% {
+        right: 90%;
+    }
+    75% {
+        top: 80%;
+    }
+    100% {
+        right: 0px;
+    }
 }
 
 @media (max-width: 768px) {
-    .contact::after, .contact::before {
+    .contact::after,
+    .contact::before {
         width: 200px;
         height: 200px;
         border-width: 30px;
@@ -588,7 +664,8 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1),
 }
 
 @media (max-width: 480px) {
-    .contact::after, .contact::before {
+    .contact::after,
+    .contact::before {
         width: 150px;
         height: 150px;
         border-width: 20px;
@@ -611,21 +688,19 @@ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1),
 .footer .short-link a,
 .footer .help-link a,
 .footer .contact-link a {
-transition: .5s;
+    transition: 0.5s;
 }
 
 .footer .short-link a:hover,
 .footer .help-link a:hover,
 .footer .contact-link a:hover {
-letter-spacing: 1px;
+    letter-spacing: 1px;
 }
 .footer .hightech-link a:hover {
-background: rgba(238,28,35,255);
-border: 0;
+    background: rgba(238, 28, 35, 255);
+    border: 0;
 }
 /*** Footer End ***/
-
-
 
 /* Adsense Css start */
 .adsense {
@@ -638,75 +713,58 @@ border: 0;
 
 /* Adsense Css end */
 
-
-
-
 .custom-img-width {
     width: 150%; /* Increase width beyond the container */
     height: 400px; /* Adjust as needed */
     object-fit: cover; /* Ensures the image fits the specified dimensions */
-    
 }
-
 
 /* Blog SPot Css Start  */
 
 @media (max-width: 767px) {
-  .blog-post img {
-      max-width: 100%;
-      height: auto;
-  }
+    .blog-post img {
+        max-width: 100%;
+        height: auto;
+    }
 
-  .blog-title {
-      font-size: 1.5rem;
-  }
+    .blog-title {
+        font-size: 1.5rem;
+    }
 
-  .blog-content {
-      font-size: 1rem;
-  }
+    .blog-content {
+        font-size: 1rem;
+    }
 }
 
-
 /* Blogspot Css end  */
-
 
 /* Education Css  Start/.......... */
 
 .card-img-top {
-  width: 100%; /* Full width */
-  height: 250px; /* Fixed height */
-  object-fit: cover; /* Maintain aspect ratio */
+    width: 100%; /* Full width */
+    height: 250px; /* Fixed height */
+    object-fit: cover; /* Maintain aspect ratio */
 }
 
 /* Media queries for small screen responsiveness */
 @media (max-width: 768px) {
-  .card-img-top {
-      height: 200px; /* Smaller height for smaller screens */
-  }
+    .card-img-top {
+        height: 200px; /* Smaller height for smaller screens */
+    }
 }
 
 @media (max-width: 576px) {
-  .card-img-top {
-      height: 150px; /* Further reduce height for very small screens */
-  }
+    .card-img-top {
+        height: 150px; /* Further reduce height for very small screens */
+    }
 
-  .card-body {
-      text-align: center; /* Center align content for better readability */
-  }
+    .card-body {
+        text-align: center; /* Center align content for better readability */
+    }
 }
-
-
 
 /* Education Css End */
 
-.internet{
- background-color: #7f7f81;
+.internet {
+    background-color: #7f7f81;
 }
-
-
-
-
-
-
-
-
