@@ -40,4 +40,19 @@ class HomeController extends Controller
     public function internet (){
         return view('front.internet');
     }
+
+    public function seo (){
+        return view('front.seo');
+    }
+
+    public function blogspot (){
+        return view('front.blogspot');
+    }
+
+    public function education (){
+        return view('front.education');
+    }
+    public function fact (){
+        return view('front.fact');
+    }
 }

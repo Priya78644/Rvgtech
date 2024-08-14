@@ -38,11 +38,10 @@
                             <a href="{{route('affiliate')}}" class="dropdown-item">Affiliate Marketing</a>
                             <a href="{{route('adsens')}}" class="dropdown-item">Adsense</a>
                             
-                            <a href="testimonial.html" class="dropdown-item">Blog Spot</a>
-                            <a href="testimonial.html" class="dropdown-item">Word Press</a>
+                            <a href="{{route('blogspot')}}" class="dropdown-item">Blog Spot</a>
                         </div>
                     </div>
-                    <a href="service.html" class="nav-item nav-link">SEO</a>
+                    <a href="{{route('seo')}}" class="nav-item nav-link">SEO</a>
                     <a href="{{route('technology')}}" class="nav-item nav-link">Technology</a>
                     <a href="{{route('life')}}" class="nav-item nav-link">Life Success</a>
 
@@ -50,11 +49,8 @@
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
                         <div class="dropdown-menu rounded">
                             <a href="{{route('internet')}}" class="dropdown-item">Internet</a>
-                            <a href="team.html" class="dropdown-item">Education</a>
-                            <a href="testimonial.html" class="dropdown-item">Interesting Fact</a>
-                            <a href="404.html" class="dropdown-item">Business Startup</a>
-                            <a href="404.html" class="dropdown-item">Youtube</a>
-                            <a href="404.html" class="dropdown-item">Security Tips</a>
+                            <a href="{{route('education')}}" class="dropdown-item">Education</a>
+                            <a href="{{route('fact')}}" class="dropdown-item">Interesting Fact</a>
                             <a href="404.html" class="dropdown-item">Social Media</a>
                         </div>
                     </div>

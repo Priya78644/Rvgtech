@@ -20,3 +20,11 @@ Route::get('/life', [HomeController::class, 'life'])->name('life');
 Route::get('/technology', [HomeController::class, 'technology'])->name('technology');
 
 Route::get('/internet', [HomeController::class, 'internet'])->name('internet');
+
+Route::get('/seo', [HomeController::class, 'seo'])->name('seo');
+
+Route::get('/blogspot', [HomeController::class, 'blogspot'])->name('blogspot');
+
+
+Route::get('/education', [HomeController::class, 'education'])->name('education');
+Route::get('/fact', [HomeController::class, 'fact'])->name('fact');

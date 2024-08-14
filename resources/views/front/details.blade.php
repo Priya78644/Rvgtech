@@ -11,7 +11,7 @@
                     </div>
                     <div class="position-relative rounded overflow-hidden mb-3">
                         <img src="{{ asset('assets/img/modi.jpg') }}" class="img-zoomin img-fluid rounded w-100"
-                            alt="">
+                            alt="img">
                         <div class="position-absolute text-white px-4 py-2 bg-primary rounded"
                             style="top: 20px; right: 20px;">
                             Politics
@@ -53,7 +53,7 @@
                     <div class="row g-4">
                         <div class="col-6">
                             <div class="rounded overflow-hidden">
-                                <img src="img/news-6.jpg" class="img-zoomin img-fluid rounded w-100" alt="">
+                                <img src="img/news-6.jpg" class="img-zoomin img-fluid rounded w-100" alt="img">
                             </div>
                         </div>
                         <div class="col-6">
@@ -138,7 +138,7 @@
                             <div id="tab-1" class="tab-pane fade show active">
                                 <div class="row g-4 align-items-center">
                                     <div class="col-3">
-                                        <img src="img/footer-4.jpg" class="img-fluid w-100 rounded" alt="">
+                                        <img src="img/footer-4.jpg" class="img-fluid w-100 rounded" alt="img">
                                     </div>
                                     <div class="col-9">
                                         <h3>Amelia Alex</h3>
@@ -154,7 +154,7 @@
                             <div id="tab-2" class="tab-pane fade show">
                                 <div class="row g-4 align-items-center">
                                     <div class="col-3">
-                                        <img src="img/footer-5.jpg" class="img-fluid w-100 rounded" alt="">
+                                        <img src="img/footer-5.jpg" class="img-fluid w-100 rounded" alt="img">
                                     </div>
                                     <div class="col-9">
                                         <h3>Amelia Alex</h3>
@@ -170,7 +170,7 @@
                             <div id="tab-3" class="tab-pane fade show">
                                 <div class="row g-4 align-items-center">
                                     <div class="col-3">
-                                        <img src="img/footer-6.jpg" class="img-fluid w-100 rounded" alt="">
+                                        <img src="img/footer-6.jpg" class="img-fluid w-100 rounded" alt="img">
                                     </div>
                                     <div class="col-9">
                                         <h3>Amelia Alex</h3>
@@ -191,7 +191,7 @@
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center p-3 bg-white rounded">
                                     <img src="{{ asset('assets/img/chatGPT-1.jpg') }}" class="img-fluid rounded"
-                                        alt="">
+                                        alt="img">
                                     <div class="ms-3">
                                         <a href="#" class="h5 mb-2">Lorem Ipsum is simply dummy text of the
                                             printing</a>
@@ -202,7 +202,7 @@
                             <div class="col-lg-6">
                                 <div class="d-flex align-items-center p-3 bg-white rounded">
                                     <img src="{{ asset('assets/img/chatGPT-1.jpg') }}" class="img-fluid rounded"
-                                        alt="">
+                                        alt="img">
                                     <div class="ms-3">
                                         <a href="#" class="h5 mb-2">Lorem Ipsum is simply dummy text of the
                                             printing</a>
@@ -218,7 +218,7 @@
                             <div class="row g-4">
                                 <div class="col-3">
                                     <img src="{{ asset('assets/img/admin.jpg') }}" class="img-fluid rounded-circle w-100"
-                                        alt="">
+                                        alt="img">
                                 </div>
                                 <div class="col-9">
                                     <div class="d-flex justify-content-between">
@@ -240,7 +240,7 @@
                             <div class="row g-4">
                                 <div class="col-3">
                                     <img src="{{ asset('assets/img/admin.jpg') }}" class="img-fluid rounded-circle w-100"
-                                        alt="">
+                                        alt="img">
                                 </div>
                                 <div class="col-9">
                                     <div class="d-flex justify-content-between">
@@ -379,7 +379,7 @@
                                                     <div class="overflow-hidden rounded-circle">
                                                         <img src="{{ asset('assets/img/cricket.jpg') }}"
                                                             class="img-zoomin img-fluid rounded-circle w-100"
-                                                            alt="">
+                                                            alt="img">
                                                     </div>
                                                     <span
                                                         class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute"
@@ -405,7 +405,7 @@
                                                     <div class="overflow-hidden rounded-circle">
                                                         <img src="img/features-technology.jpg"
                                                             class="img-zoomin img-fluid rounded-circle w-100"
-                                                            alt="">
+                                                            alt="img">
                                                     </div>
                                                     <span
                                                         class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute"
@@ -431,7 +431,7 @@
                                                     <div class="overflow-hidden rounded-circle">
                                                         <img src="img/features-fashion.jpg"
                                                             class="img-zoomin img-fluid rounded-circle w-100"
-                                                            alt="">
+                                                            alt="img">
                                                     </div>
                                                     <span
                                                         class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute"
@@ -457,7 +457,7 @@
                                                     <div class="overflow-hidden rounded-circle">
                                                         <img src="img/features-life-style.jpg"
                                                             class="img-zoomin img-fluid rounded-circle w-100"
-                                                            alt="">
+                                                            alt="img">
                                                     </div>
                                                     <span
                                                         class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute"
@@ -533,7 +533,7 @@
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="position-relative banner-2">
-                                            <img src="img/banner-2.jpg" class="img-fluid w-100 rounded" alt="">
+                                            <img src="img/banner-2.jpg" class="img-fluid w-100 rounded" alt="img">
                                             <div class="text-center banner-content-2">
                                                 <h6 class="mb-2">The Most Populer</h6>
                                                 <p class="text-white mb-2">News & Magazine WP Theme</p>
@@ -553,4 +553,39 @@
         </div>
     </div>
     <!-- Single Details End -->
+
+
+
+
+     {{-- Poster Start --}}
+
+     <section class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="{{ asset('assets/img/Animate.png') }}" alt="Illustration" class="img-fluid">
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center text-white text-center">
+                    <h1 class="display-4 font-weight-bold">Learn Something New Every Day.</h1>
+                    <p class="lead">Complete information in Hindi about Digital India, Technology, Online Business,
+                        Making Money, Life Success, Blogging, SEO, and the Internet.</p>
+                    <p class="lead">Subscribe to our blog now to get notifications of our new posts.</p>
+                    <form class="form-inline justify-content-center">
+                        <div class="form-row">
+                            <div class="col-auto">
+                                <input type="text" class="form-control mb-2" placeholder="Your Name">
+                            </div>
+                            <div class="col-auto">
+                                <input type="email" class="form-control mb-2" placeholder="Your Email Address">
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn btn-dark mb-2">Subscribe Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- Poster End --}}
 @endsection

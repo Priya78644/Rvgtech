@@ -73,7 +73,7 @@ color: black; /* Change text color to black on hover */
     position: relative;
     display: inline-block;
     white-space: nowrap;
-    animation: mymove 20s linear infinite;
+    animation: mymove 25s linear infinite;
 }
 
 @keyframes mymove {
@@ -642,6 +642,41 @@ border: 0;
     object-fit: cover; /* Ensures the image fits the specified dimensions */
     
 }
+
+
+
+.blog-post {
+  margin-bottom: 30px;
+}
+.blog-post img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.blog-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.blog-content {
+  font-size: 1rem;
+  color: #555;
+}
+
+
+
+/* Education Css  Start/.......... */
+
+.card-img-top {
+  width: 100%; /* Full width of the card */
+  height: 250px; /* Fixed height */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+
+
+/* Education Css End */
+
 
 
 
