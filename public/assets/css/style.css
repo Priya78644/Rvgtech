@@ -78,7 +78,6 @@
 #note {
   width: 100%;
   overflow: hidden;
-  background-color: #f8f9fa; /* Optional: Add a background color */
   padding: 5px; /* Optional: Add padding for a cleaner look */
 }
 
@@ -127,7 +126,7 @@
   }
 
   .topbar .top-link {
-      flex-direction: column; /* Stack links vertically */
+      flex-direction: row; /* Stack links vertically */
       text-align: center; /* Center text */
   }
 
@@ -793,3 +792,5 @@ iframe.shadow-lg {
 .internet {
     background-color: #7f7f81;
 }
+
+
