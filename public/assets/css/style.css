@@ -111,6 +111,7 @@
 
   .topbar .top-link {
       justify-content: center; /* Center links on smaller screens */
+      text-align: row;
   }
 
   .topbar .top-link a {
