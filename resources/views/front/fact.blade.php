@@ -45,7 +45,7 @@
                     and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
                     leap into electronic
                 </p>
-                <div class="bg-light p-4 mb-4 rounded border-start border-3 border-primary">
+                <div class="bg-light p-4 mb-4 rounded border-start border-3 border-danger">
                     <h1 class="mb-2">ED Assistant Director Lands in CBI Net, Third Officer from Agency Caught Taking
                         Bribes since November.</h1>
                 </div>
@@ -304,7 +304,7 @@
                                                         alt="img">
                                                 </div>
                                                 <span
-                                                    class=" rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute"
+                                                    class=" rounded-circle border border-2 border-white bg-danger btn-sm-square text-white position-absolute"
                                                     style="top: 10%; right: -10px;">3</span>
                                             </div>
                                         </div>
@@ -330,7 +330,7 @@
                                                         alt="img">
                                                 </div>
                                                 <span
-                                                    class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute"
+                                                    class="rounded-circle border border-2 border-white bg-danger btn-sm-square text-white position-absolute"
                                                     style="top: 10%; right: -10px;">3</span>
                                             </div>
                                         </div>
@@ -356,7 +356,7 @@
                                                         alt="img">
                                                 </div>
                                                 <span
-                                                    class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute"
+                                                    class="rounded-circle border border-2 border-white bg-danger btn-sm-square text-white position-absolute"
                                                     style="top: 10%; right: -10px;">3</span>
                                             </div>
                                         </div>
@@ -382,7 +382,7 @@
                                                         alt="img">
                                                 </div>
                                                 <span
-                                                    class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute"
+                                                    class="rounded-circle border border-2 border-white bg-danger btn-sm-square text-white position-absolute"
                                                     style="top: 10%; right: -10px;">3</span>
                                             </div>
                                         </div>
@@ -400,7 +400,7 @@
                                 </div>
                                 <div class="col-lg-12">
                                     <a href="#"
-                                        class="link-hover btn border border-primary rounded-pill text-dark w-100 py-3 mb-4">View
+                                        class="link-hover btn border border-danger rounded-pill text-dark w-100 py-3 mb-4">View
                                         More</a>
                                 </div>
                                 <div class="col-lg-12">
@@ -483,8 +483,8 @@
 <div class="container-fluid bg-light py-5">
     <div class="container py-5">
         <div class="pb-5">
-            <h4 class="text-secondary sub-title fw-bold">Our Facts</h4>
-            <h1 class="display-2 mb-0">Facts for Everyone</h1>
+            <h4 class="text-danger sub-title fw-bold">Our Facts</h4>
+            <h1 class="display-6 mb-0">Facts for Everyone</h1>
         </div>
         <div class="row pt-5">
             <!-- Card 1 -->

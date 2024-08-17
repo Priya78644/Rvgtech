@@ -8,10 +8,10 @@
                 </a>
                 <p class="mt-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui placeat inventore consectetur repellendus optio debitis.</p>
                 <div class="d-flex hightech-link">
-                    <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-primary"></i></a>
-                    <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter text-primary"></i></a>
-                    <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-primary"></i></a>
-                    <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i class="fab fa-linkedin-in text-primary"></i></a>
+                    <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-facebook-f text-danger"></i></a>
+                    <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-twitter text-danger"></i></a>
+                    <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-2"><i class="fab fa-instagram text-danger"></i></a>
+                    <a href="" class="btn-light nav-fill btn btn-square rounded-circle me-0"><i class="fab fa-linkedin-in text-danger"></i></a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
@@ -37,9 +37,9 @@
             <div class="col-lg-3 col-md-6">
                 <a href="#" class="h3 text-danger">Contact Us</a>
                 <div class="text-white mt-4 d-flex flex-column contact-link">
-                    <a href="#" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-danger me-2"></i> 123 Street, UP,India</a>
-                    <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-danger me-2"></i> +123 456 7890</a>
-                    <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-danger me-2"></i> info@exmple.con</a>
+                    <a href="#" class="pb-3 text-light border-bottom border-danger"><i class="fas fa-map-marker-alt text-danger me-2"></i> 123 Street, UP,India</a>
+                    <a href="#" class="py-3 text-light border-bottom border-danger"><i class="fas fa-phone-alt text-danger me-2"></i> +123 456 7890</a>
+                    <a href="#" class="py-3 text-light border-bottom border-danger"><i class="fas fa-envelope text-danger me-2"></i> info@exmple.con</a>
                 </div>
             </div>
         </div>

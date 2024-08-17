@@ -15,7 +15,7 @@
                     auctor aliquet, justo erat.</p>
             </div>
             <div class="col-md-4 blog-post">
-                <img src="{{ asset('assets/img/Supreme-') }}" alt="Blog Image 3" class="img-fluid blog-img">
+                <img src="{{ asset('assets/img/Supreme-Court.webp') }}" alt="Blog Image 3" class="img-fluid blog-img">
                 <h2 class="blog-title">Blog Post Title 3</h2>
                 <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis, nunc vel
                     auctor aliquet, justo erat.</p>

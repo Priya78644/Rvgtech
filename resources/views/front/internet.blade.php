@@ -6,7 +6,7 @@
 <!-- Header Section -->
 <div class="internet text-white text-center py-5">
     <div class="container">
-        <h1 class="display-4">Fast & Reliable Internet</h1>
+        <h1 class="display-4 text-light">Fast & Reliable Internet</h1>
         <p class="lead">Experience the best internet service with unlimited data and 24/7 customer support.</p>
         <a href="#plans" class="btn btn-primary btn-lg">View Plans</a>
     </div>
@@ -128,7 +128,7 @@
                         <div class="blog-info">
                             <span><i class="fa fa-clock"></i> Dec 01.2024</span>
                             <div class="d-flex">
-                                <span class="me-3"> 3 <i class="fa fa-heart"></i></span>
+                                <span class="me-3 text-danger"> 3 <i class="fa fa-heart"></i></span>
                                 <a href="#" class="text-white">0 <i class="fa fa-comment"></i></a>
                             </div>
                         </div>
@@ -136,7 +136,7 @@
                     <div class="blog-content text-dark border p-4 ">
                         <h5 class="mb-4">Dolor, sit amet consectetur adipisicing</h5>
                         <p class="mb-4">Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur adip.</p>
-                        <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
+                       
                     </div>
                 </div>
             </div>
@@ -147,7 +147,7 @@
                         <div class="blog-info">
                             <span><i class="fa fa-clock"></i> Dec 01.2024</span>
                             <div class="d-flex">
-                                <span class="me-3"> 3 <i class="fa fa-heart"></i></span>
+                                <span class="me-3 text-danger"> 3 <i class="fa fa-heart"></i></span>
                                 <a href="#" class="text-white">0 <i class="fa fa-comment"></i></a>
                             </div>
                         </div>
@@ -155,7 +155,7 @@
                     <div class="blog-content text-dark border p-4 ">
                         <h5 class="mb-4">Dolor, sit amet consectetur adipisicing</h5>
                         <p class="mb-4">Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur adip.</p>
-                        <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
+                        
                     </div>
                 </div>
             </div>
@@ -166,7 +166,7 @@
                         <div class="blog-info">
                             <span><i class="fa fa-clock"></i> Dec 01.2024</span>
                             <div class="d-flex">
-                                <span class="me-3"> 3 <i class="fa fa-heart"></i></span>
+                                <span class="me-3 text-danger"> 3 <i class="fa fa-heart"></i></span>
                                 <a href="#" class="text-white">0 <i class="fa fa-comment"></i></a>
                             </div>
                         </div>
@@ -174,7 +174,7 @@
                     <div class="blog-content text-dark border p-4 ">
                         <h5 class="mb-4">Dolor, sit amet consectetur adipisicing</h5>
                         <p class="mb-4">Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur adip.</p>
-                        <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
+                        
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@
                         <div class="blog-info">
                             <span><i class="fa fa-clock"></i> Dec 01.2024</span>
                             <div class="d-flex">
-                                <span class="me-3"> 3 <i class="fa fa-heart"></i></span>
+                                <span class="me-3 text-danger"> 3 <i class="fa fa-heart"></i></span>
                                 <a href="#" class="text-white">0 <i class="fa fa-comment"></i></a>
                             </div>
                         </div>
@@ -193,7 +193,7 @@
                     <div class="blog-content text-dark border p-4 ">
                         <h5 class="mb-4">Dolor, sit amet consectetur adipisicing</h5>
                         <p class="mb-4">Lorem ipsum dolor sit amet consectur adip sed eiusmod amet consectur adip.</p>
-                        <a class="btn btn-light rounded-pill py-2 px-4" href="#">Read More</a>
+                        
                     </div>
                 </div>
             </div>

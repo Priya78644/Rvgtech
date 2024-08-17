@@ -12,7 +12,7 @@
                     <div class="position-relative rounded overflow-hidden mb-3">
                         <img src="{{ asset('assets/img/modi.jpg') }}" class="img-zoomin img-fluid rounded w-100"
                             alt="img">
-                        <div class="position-absolute text-white px-4 py-2 bg-primary rounded"
+                        <div class="position-absolute text-white px-4 py-2 bg-danger rounded"
                             style="top: 20px; right: 20px;">
                             Politics
                         </div>
@@ -46,7 +46,7 @@
                         and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
                         leap into electronic
                     </p>
-                    <div class="bg-light p-4 mb-4 rounded border-start border-3 border-primary">
+                    <div class="bg-light p-4 mb-4 rounded border-start border-3 border-danger">
                         <h1 class="mb-2">ED Assistant Director Lands in CBI Net, Third Officer from Agency Caught Taking
                             Bribes since November.</h1>
                     </div>
@@ -122,13 +122,13 @@
                             <div class="d-flex flex-wrap align-items-center">
                                 <h5 class="mb-0 me-3">Share:</h5>
                                 <i
-                                    class="fab fa-facebook-f link-hover btn btn-square rounded-circle border-primary text-dark me-2"></i>
+                                    class="fab fa-facebook-f link-hover btn btn-square rounded-circle border-danger text-dark me-2"></i>
                                 <i
-                                    class="btn fab bi-twitter link-hover btn btn-square rounded-circle border-primary text-dark me-2"></i>
+                                    class="btn fab bi-twitter link-hover btn btn-square rounded-circle border-danger text-dark me-2"></i>
                                 <i
-                                    class="btn fab fa-instagram link-hover btn btn-square rounded-circle border-primary text-dark me-2"></i>
+                                    class="btn fab fa-instagram link-hover btn btn-square rounded-circle border-danger text-dark me-2"></i>
                                 <i
-                                    class="btn fab fa-linkedin-in link-hover btn btn-square rounded-circle border-primary text-dark"></i>
+                                    class="btn fab fa-linkedin-in link-hover btn btn-square rounded-circle border-danger text-dark"></i>
                             </div>
                         </div>
 
@@ -382,7 +382,7 @@
                                                             alt="img">
                                                     </div>
                                                     <span
-                                                        class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute"
+                                                        class="rounded-circle border border-2 border-white bg-danger btn-sm-square text-white position-absolute"
                                                         style="top: 10%; right: -10px;">3</span>
                                                 </div>
                                             </div>
@@ -408,7 +408,7 @@
                                                             alt="img">
                                                     </div>
                                                     <span
-                                                        class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute"
+                                                        class="rounded-circle border border-2 border-white bg-danger btn-sm-square text-white position-absolute"
                                                         style="top: 10%; right: -10px;">3</span>
                                                 </div>
                                             </div>
@@ -434,7 +434,7 @@
                                                             alt="img">
                                                     </div>
                                                     <span
-                                                        class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute"
+                                                        class="rounded-circle border border-2 border-white bg-danger btn-sm-square text-white position-absolute"
                                                         style="top: 10%; right: -10px;">3</span>
                                                 </div>
                                             </div>
@@ -460,7 +460,7 @@
                                                             alt="img">
                                                     </div>
                                                     <span
-                                                        class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute"
+                                                        class="rounded-circle border border-2 border-white bg-danger btn-sm-square text-white position-absolute"
                                                         style="top: 10%; right: -10px;">3</span>
                                                 </div>
                                             </div>
@@ -478,7 +478,7 @@
                                     </div>
                                     <div class="col-lg-12">
                                         <a href="#"
-                                            class="link-hover btn border border-primary rounded-pill text-dark w-100 py-3 mb-4">View
+                                            class="link-hover btn border border-danger rounded-pill text-dark w-100 py-3 mb-4">View
                                             More</a>
                                     </div>
                                     <div class="col-lg-12">

@@ -28,11 +28,11 @@
                 <div class="row g-3">
                 </div>
                 <div class="d-flex align-items-center mt-4">
-                    <a class="btn btn-primary rounded-pill px-4 me-3" href="">Read More</a>
-                    <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-instagram"></i></a>
-                    <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+    
+                    <a class="btn btn-primary btn-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-primary btn-square me-3" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-primary btn-square me-3" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>

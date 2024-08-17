@@ -13,8 +13,7 @@
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
                 <h2 class="display-5 mb-2">Our Contact Form</h2>
-                <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                <form>
+                <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done.</p> 
                     <div class="row g-3">
                         <div class="col-lg-12 col-xl-6">
                             <div class="form-floating">
@@ -60,21 +59,21 @@
             </div>
             <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
                 <div class="d-flex align-items-center mb-4">
-                    <div class="bg-light d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fa fa-home fa-2x text-primary"></i></div>
+                    <div class="bg-light d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fa fa-home fa-2x text-danger"></i></div>
                     <div class="ms-4">
                         <h4>Addresses</h4>
                         <p class="mb-0">123 ranking Street, New York, USA</p>
                     </div>
                 </div>
                 <div class="d-flex align-items-center mb-4">
-                    <div class="bg-light d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fa fa-map-marker-alt fa-2x text-primary"></i></div>
+                    <div class="bg-light d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fa fa-map-marker-alt fa-2x text-danger"></i></div>
                     <div class="ms-4">
                         <h4>Addresses</h4>
                         <p class="mb-0">123 ranking Street, New York, USA</p>
                     </div>
                 </div>
                 <div class="d-flex align-items-center mb-4">
-                    <div class="bg-light d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fa fa-phone-alt fa-2x text-primary"></i></div>
+                    <div class="bg-light d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fa fa-phone-alt fa-2x text-danger"></i></div>
                     <div class="ms-4">
                         <h4>Mobile</h4>
                         <p class="mb-0">+012 345 67890</p>
@@ -82,7 +81,7 @@
                     </div>
                 </div>
                 <div class="d-flex align-items-center mb-4">
-                    <div class="bg-light d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fa fa-envelope-open fa-2x text-primary"></i></div>
+                    <div class="bg-light d-flex align-items-center justify-content-center mb-3" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fa fa-envelope-open fa-2x text-danger"></i></div>
                     <div class="ms-4">
                         <h4>Email</h4>
                         <p class="mb-0">info@example.com</p>
@@ -91,7 +90,7 @@
                 </div>
                 <div class="d-flex align-items-center">
                     <div class="me-4">
-                        <div class="bg-light d-flex align-items-center justify-content-center" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fas fa-share fa-2x text-primary"></i></div>
+                        <div class="bg-light d-flex align-items-center justify-content-center" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fas fa-share fa-2x text-danger"></i></div>
                     </div>
                     <div class="d-flex">
                         <a class="btn btn-lg-square btn-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>

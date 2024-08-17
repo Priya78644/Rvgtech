@@ -18,8 +18,6 @@
                 <div class="card-body text-center">
                     <h5 class="card-title">Product Name 1</h5>
                     <p class="card-text">Brief description of the product highlighting its features and benefits.</p>
-                    <a href="#" class="btn btn-primary btn-lg">View Details</a>
-                    <a href="#" class="btn btn-success btn-lg">Buy Now</a>
                 </div>
             </div>
         </div>
@@ -31,8 +29,7 @@
                 <div class="card-body text-center">
                     <h5 class="card-title">Product Name 2</h5>
                     <p class="card-text">Brief description of the product highlighting its features and benefits.</p>
-                    <a href="#" class="btn btn-primary btn-lg">View Details</a>
-                    <a href="#" class="btn btn-success btn-lg">Buy Now</a>
+                    
                 </div>
             </div>
         </div>
@@ -44,8 +41,7 @@
                 <div class="card-body text-center">
                     <h5 class="card-title">Product Name 3</h5>
                     <p class="card-text">Brief description of the product highlighting its features and benefits.</p>
-                    <a href="#" class="btn btn-primary btn-lg">View Details</a>
-                    <a href="#" class="btn btn-success btn-lg">Buy Now</a>
+                    
                 </div>
             </div>
         </div>
@@ -69,7 +65,6 @@
                     <img src="{{ asset('assets/img/Facts-Google.webp') }}" class="img-fluid rounded mb-3" alt="Product 1">
                     <h3 class="text-center mb-3">Product 1</h3>
                     <p class="text-center mb-4">Promote this amazing product and earn 20% commission on every sale!</p>
-                    <a href="#" class="btn btn-primary w-100">Learn More</a>
                 </div>
             </div>
 
@@ -79,7 +74,6 @@
                     <img src="{{ asset('assets/img/hosting image.jpg') }}" class="img-fluid rounded mb-3" alt="Product 2">
                     <h3 class="text-center mb-3">Product 2</h3>
                     <p class="text-center mb-4">Join our program and promote this product to your audience!</p>
-                    <a href="#" class="btn btn-primary w-100">Learn More</a>
                 </div>
             </div>
 
@@ -89,7 +83,7 @@
                     <img src="{{ asset('assets/img/affiliate.png') }}" class="img-fluid rounded mb-3" alt="Product 3">
                     <h3 class="text-center mb-3">Product 3</h3>
                     <p class="text-center mb-4">Earn passive income by sharing this product with your network!</p>
-                    <a href="#" class="btn btn-primary w-100">Learn More</a>
+                    
                 </div>
             </div>
         </div>
