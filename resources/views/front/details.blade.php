@@ -1,4 +1,4 @@
-@extends('components.main')
+@extends('Layouts.layout')
 @section('content')
     <!-- Single Details Start -->
     <div class="container-fluid py-5">
@@ -6,11 +6,10 @@
             <div class="row g-4">
                 <div class="col-lg-8">
                     <div class="mb-4">
-                        <a href="" class="h1 display-6">Manish Sisodia Gets Bail From SC In Delhi Excise Policy Cases,
-                            To Walk Out of Jail After 17 Months.</a>
+                        <a href="" class="h1 display-6">{{$blog->name}}</a>
                     </div>
                     <div class="position-relative rounded overflow-hidden mb-3">
-                        <img src="{{ asset('assets/img/modi.jpg') }}" class="img-zoomin img-fluid rounded w-100"
+                        <img src="{{ asset('storage/'. ) }}" class="img-zoomin img-fluid rounded w-100"
                             alt="img">
                         <div class="position-absolute text-white px-4 py-2 bg-danger rounded"
                             style="top: 20px; right: 20px;">

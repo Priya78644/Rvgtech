@@ -90,7 +90,8 @@
                 </div>
                 <div class="d-flex align-items-center">
                     <div class="me-4">
-                        <div class="bg-light d-flex align-items-center justify-content-center" style="width: 90px; height: 90px; border-radius: 50px;"><i class="fas fa-share fa-2x text-danger"></i></div>
+                        <div class="bg-light d-flex align-items-center justify-content-center" style="width: 90px; height: 90px; border-radius: 50px;">
+                            <i class="fas fa-share fa-2x text-danger"></i></div>
                     </div>
                     <div class="d-flex">
                         <a class="btn btn-lg-square btn-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>

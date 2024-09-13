@@ -1,20 +1,35 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Category;
+use App\Models\Property;
 
+use App\Models\Blog;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+
+    public function dashboard(){
+        $properties = Blog::all();
+        $categories = Category::all();
+        return view('dashboard.dashboard', compact('properties', 'categories'));
+    }
+
+
+
+
     public function index (){
-        return view('front.index');
+        $blogs = Blog::all();
+        return view('front.index', compact('blogs'));
     }
 
     public function email (){
         return view('front.email');
     }
-    public function details (){
-        return view('front.details');
+    public function details (Blog $blog){
+        
+        return view('front.details', compact('blog'));
     }
 
     public function affiliate(){
